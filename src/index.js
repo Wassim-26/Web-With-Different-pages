@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router"; // 1 - First
 import Home from "./pages/Home/Home";
 import Profile from "./pages/Profile/Profile";
 import Sourates from "./pages/Sourates/Sourates";
+import Reciter from "./pages/Reciter/Reciter";
 // 2 - Second step
 const router = createBrowserRouter([
   {
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
   {
     path: "/Sourates",
     element: <Sourates />,
+  },
+  ,
+  {
+    path: "/Reciter",
+    element: <Reciter />,
   },
 ]);
 

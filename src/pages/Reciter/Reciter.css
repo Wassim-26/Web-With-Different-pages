@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    243deg,
+    rgba(34, 193, 195, 1) 14%,
+    rgba(253, 45, 45, 1) 100%
+  );
+}
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 230px;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 12px;
+  border-radius: 6px;
+  background-color: rgba(0, 103, 239, 0.381);
+}
+.info-container .left p {
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.info-container .left p span {
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+}
