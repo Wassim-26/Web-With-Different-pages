@@ -1,25 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router"; // 1 - First step
-import Home from "./pages/Home/Home";
-import Profile from "./pages/Profile/Profile";
+import MaterielUI from "./pages/Materiel-UI/Materiel-UI";
 import Sourates from "./pages/Sourates/Sourates";
 import Reciter from "./pages/Reciter/Reciter";
 // 2 - Second step
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/profile",
-    element: <Profile />,
-  },
-  {
-    path: "/Sourates",
     element: <Sourates />,
   },
-  ,
+  {
+    path: "/Materiel-UI",
+    element: <MaterielUI />,
+  },
   {
     path: "/Reciter",
     element: <Reciter />,
